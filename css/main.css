@@ -97,6 +97,16 @@ button {
   outline: none;
 }
 
+@media screen and (max-width: 1920px) {
+  main {
+    transform: scale(0.75);
+  }
+
+  .bg {
+    transform: scale(1.4);
+  }
+}
+
 .form {
   -webkit-transform-origin: top;
   transform-origin: top;
